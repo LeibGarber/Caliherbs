@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ParallaxBanner from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
 class About extends Component {
   render() {
     return (
