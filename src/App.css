@@ -32,8 +32,8 @@
 }
 
 /*-------------
- 	General
--------------*/
+   General
+   -------------*/
 
 * {
   margin: 0;
@@ -55,19 +55,19 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-
+  font-style: "Mayven Pro", sans-serif;
   opacity: 0.9;
 }
 
 a:hover {
-  opacity: 1;
+  color: #9d44b5;
 }
 
 a.btn {
   color: #fff;
   border-radius: 4px;
   text-transform: uppercase;
-  background-color: #2196f3;
+  background: rgba(66, 44, 76, 0.85);
   font-weight: 800;
   text-align: center;
 }
@@ -103,7 +103,7 @@ section {
 section h3.title {
   color: #414a4f;
   text-transform: capitalize;
-  font: bold 32px "Open Sans", sans-serif;
+  font: bold 32px "Mayven Pro", sans-serif;
   margin-bottom: 35px;
   text-align: center;
 }
@@ -132,20 +132,27 @@ header {
   top: 0;
   left: 0;
   z-index: 10;
-  width: 100%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 35px 100px 0;
+  padding: 35px 10px 20px;
+  border-bottom: 1px solid white;
+  margin: 0 15vw;
 }
 
 header h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Paytone One", sans-serif;
+}
+
+header h2:first-child {
+  font: bold 32px "Paytone One", sans-serif;
 }
 
 header nav {
   display: flex;
+  font: bold 16px "Paytone One", sans-serif;
 }
 
 header nav li {
@@ -177,8 +184,8 @@ header nav li:last-child {
 }
 
 /*----------------
- 	Hero Section
-----------------*/
+   Hero Section
+   ----------------*/
 
 .hero {
   position: relative;
@@ -195,7 +202,6 @@ header nav li:last-child {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-color: #2196f3;
   z-index: -1;
 }
 
@@ -211,12 +217,12 @@ header nav li:last-child {
 }
 
 .hero h1 {
-  font: bold 60px "Open Sans", sans-serif;
+  font: bold 60px "Paytone One", sans-serif;
   margin-bottom: 15px;
 }
 
 .hero h3 {
-  font: normal 28px "Open Sans", sans-serif;
+  font: normal 28px "Maven Pro", sans-serif;
   margin-bottom: 40px;
 }
 
@@ -452,4 +458,8 @@ footer p a {
   #bsaHolder {
     display: none;
   }
+}
+
+.test {
+  color:red;
 }

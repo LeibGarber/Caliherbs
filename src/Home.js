@@ -1,20 +1,15 @@
 import React, { Component } from "react";
+import Simpleslider from './simpleslider'
+
 class Home extends Component {
   render() {
+
     return (
       <div>
         <section className="hero">
-          <div
-            className="background-image"
-            style={{ backgroundImage: "url()" }}
-          />
-          <h1>Blank Homepage Component</h1>
-          <h3>Write soome other thing here about this thing.</h3>
-          <a href="..." className="btn">
-            Download it Here
-          </a>
+          <Simpleslider/>
         </section>
-
+        
         <section className="our-work">
           <h3 className="title">Some recent work</h3>
           <p>
@@ -77,15 +72,15 @@ class Home extends Component {
           <p className="author">— George Carlin</p>
 
           <p className="quote">
-            'Cause I'm leavin' on a jet plane Don't know when I'll be back again
+      'Cause I'm leavin' on a jet plane Don't know when I'll be back again
             Oh babe, I hate to go
           </p>
           <p className="author">— John Denver</p>
 
           <p className="quote">
             I'm not so mean. I wouldn't ever set out to hurt anyone deliberately
-            unless it was, you know, important - like a league game or
-            something.{" "}
+      unless it was, you know, important - like a league game or
+      something.{" "}
           </p>
           <p className="author">— Dick Butkiss</p>
         </section>
