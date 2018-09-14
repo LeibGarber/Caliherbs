@@ -1,0 +1,41 @@
+sliderBox {
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.sliderImage {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.pictureFrame {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pictureFrame h1 {
+  color: white;
+  font: bold 60px "Paytone One", sans-serif;
+  margin-bottom: 15px;
+  justify-content: center;
+  position: absolute;
+  top: 55vh;
+  width: 100%;
+  text-align: center;
+}
+
+.pictureFrame h3 {
+  font: normal 28px "Maven Pro", sans-serif;
+  margin-bottom: 40px;
+}
+
+.sliderBox a.btn {
+  padding: 20px 46px;
+}

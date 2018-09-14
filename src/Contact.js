@@ -3,7 +3,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h1> This is a blank contact view component</h1>
+        <section className="hero">
+          <h1 className="soon"> Coming Soon</h1>
+        </section>
       </div>
     );
   }
